@@ -1,0 +1,30 @@
+{
+  "name": "node-js-express-api",
+  "version": "1.0.0",
+  "description": "- S1. Http protocol\r - S2. Sever side rendering & Client side rendering\r     - Server side rendering: return all html and data from server render from server.\r     - client side rendering: return only html and js and render from client.\r - S3. Express",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass -w src/resources/scss/ -o src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinh-sang-2010s/Node-JS-Express-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinh-sang-2010s/Node-JS-Express-API/issues"
+  },
+  "homepage": "https://github.com/dinh-sang-2010s/Node-JS-Express-API#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
