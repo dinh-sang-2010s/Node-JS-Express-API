@@ -23,3 +23,12 @@
   - nodemon.json {
     "ext":"js json scss hbs"
     }
+- S8. Route basic
+- S9. Method
+  - GET
+  - POST
+  - PUT
+  - PATCH
+  - DELETE
+- S10. Query parameters
+  - ?a=1&b=2&...
